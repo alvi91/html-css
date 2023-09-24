@@ -97,18 +97,18 @@ const marksHigherBMI = marksBMI > jhonsBMI;
 
 console.log(marksBMI, jhonsBMI, marksHigherBMI);*/
 
-const firstName = "Zadid";
-const job = "code learner";
-const birthYear = 1991;
-const year = 2037;
+// const firstName = "Zadid";
+// const job = "code learner";
+// const birthYear = 1991;
+// const year = 2037;
 
-const Zadid =
-  "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
-console.log(Zadid);
+// const Zadid =
+//   "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
+// console.log(Zadid);
 
-const zadidNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
-console.log(zadidNew);
-console.log(`just a regular string...`);
-console.log(`just
-a regular
-string...`);
+// const zadidNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+// console.log(zadidNew);
+// console.log(`just a regular string...`);
+// console.log(`just
+//  a regular
+// string...`);
