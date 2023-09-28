@@ -97,18 +97,33 @@ const marksHigherBMI = marksBMI > jhonsBMI;
 
 console.log(marksBMI, jhonsBMI, marksHigherBMI);*/
 
-// const firstName = "Zadid";
-// const job = "code learner";
-// const birthYear = 1991;
-// const year = 2037;
+/*const firstName = "Zadid";
+const job = "code learner";
+const birthYear = 1991;
+const year = 2037;
 
-// const Zadid =
-//   "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
-// console.log(Zadid);
+const Zadid =
+  "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
+console.log(Zadid);
 
-// const zadidNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
-// console.log(zadidNew);
-// console.log(`just a regular string...`);
-// console.log(`just
-//  a regular
-// string...`);
+const zadidNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+console.log(zadidNew);
+console.log(`just a regular string...`);
+console.log(`just
+ a regular
+string...`);*/
+const age = 17;
+if (age >= 18) {
+  console.log("Sarah can start driving 🚗");
+} else {
+  const yearsleft = 18 - age;
+  console.log(`Sarah is too young. wait another ${yearsleft} yaers 😂`);
+}
+const birthYear = 1991;
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
