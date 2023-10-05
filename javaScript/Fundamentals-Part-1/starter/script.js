@@ -191,7 +191,7 @@ if (favourite === 23) {
   console.log("Number is not 23 or 7 or 9");
 }
 if (favourite !== 23) console.log("Why not 23!");*/
-const hasDriversLicense = true;
+/*const hasDriversLicense = true;
 const hasGoodVision = true;
 console.log(hasDriversLicense && hasGoodVision);
 console.log(hasDriversLicense || hasGoodVision);
@@ -203,4 +203,36 @@ if (shouldDrive) {
   console.log("Sarah is able to drive");
 } else {
   console.log("Someone else should drive");
-}
+}*/
+
+/*const scoreDolphins = 3 + 2 + 16 / 3;
+const scoreKoalas = 3 + 12 + 14 / 3;
+console.log(scoreDolphins);
+console.log(scoreKoalas);
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+  console.log("Dolphines are the winners🏆🍻✨🎉🎊");
+} else if (scoreDolphins < scoreKoalas && scoreKoalas >= 100) {
+  console.log("Koalas are the winners🏆🍻✨🎉🎊");
+} else if (
+  scoreDolphins === scoreKoalas &&
+  scoreDolphins >= 100 &&
+  scoreKoalas >= 100
+) {
+  console.log("Both win the game🎈🏆🍻✨🎉🎊");
+} else {
+  console.log("Nobody win the game😭");
+}*/
+
+/*const age = 23;
+age >= 18
+  ? console.log("I like to drink wine 🍷")
+  : console.log("I like to drink water 💧");
+
+const drink = age >= 18 ? "wine 🍷" : " water 💧";
+console.log(drink);*/
+
+const bill = 275;
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+console.log(
+  `The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`
+);
